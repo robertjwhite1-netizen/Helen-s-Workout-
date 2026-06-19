@@ -164,10 +164,7 @@ export default function Home({
         </button>
       </div>
 
-      {/* Helpful quote footer */}
-      <div className="text-center mt-3 text-xs text-gray-500 font-medium">
-        Helen’s Calm Track • One gentle step at a time
-      </div>
+
     </div>
   );
 }
