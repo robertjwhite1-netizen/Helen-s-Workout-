@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage: #DCE2D1;
+  --color-sage-side: #CBD1BC;
+  --color-sage-accent: #97A382;
+  --color-sage-deep: #E8EBDD;
+  --color-sage-soft: #F5F7F0;
+  
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, -webkit-system-font, sans-serif;
+}
+
+body {
+  @apply bg-sage text-black font-sans leading-relaxed selection:bg-sage-accent/30 duration-150 ease-out transition-colors;
+  background-color: #DCE2D1; /* Safe fallback */
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar to keep layout clean */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}

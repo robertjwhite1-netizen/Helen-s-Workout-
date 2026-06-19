@@ -1,0 +1,6 @@
+{
+  "name": "Helen’s Workout App",
+  "description": "A minimalist, calming, sage green workout tracking app tailored for amateur-level full body toning and confidence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
